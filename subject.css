@@ -1,1 +1,7 @@
-
+body {
+  background-color: lightsteelblue; 
+  font-family: helvetica } 
+ul { 
+  color: gray } 
+img { 
+  height: 200px }
