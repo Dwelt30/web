@@ -1,6 +1,6 @@
 body {
   background-color: lightsteelblue; 
-  margin: 1; }
+  margin: 25px; }
 img {
   height: 300px; }
 .banner { 
@@ -17,7 +17,7 @@ img {
   color: black; 
   font-family: helvetica, sans-serif; }
 .body > div { 
-  margin: 0.5; }
+  margin: 10px; }
 .button { 
   backgroud-color: white; 
   font-family: helvetica, sans-serif; 
