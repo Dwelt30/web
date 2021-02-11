@@ -36,12 +36,12 @@ a {
   color: black;
   text-decoration: none; 
   text-align: center; 
-  display: inline; }
+  display: inline-block; }
 h1 {
   color: black; 
   font-family: helvetica, sans-serif; 
   text-align: center; 
-  display: inline; 
+  display: inline-block; 
   border: solid, black; 
   margin: 5px; }
 h2 {
