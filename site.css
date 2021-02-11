@@ -28,13 +28,15 @@ img {
   font-family: helvetica, sans-serif; 
   color: black;
   text-decoration: none; 
-  text-align: center; }
+  text-align: center; 
+  display: inline; }
 a { 
   background-color: white; 
   font-family: helvetica, sans-serif; 
   color: black;
   text-decoration: none; 
-  text-align: center; }
+  text-align: center; 
+  display: inline; }
 h1 {
   color: black; 
   font-family: helvetica, sans-serif; 
