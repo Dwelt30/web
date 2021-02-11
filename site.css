@@ -5,12 +5,12 @@ img {
   height: 300px; }
 .banner { 
   position: sticky; 
-  backgroud-color: violet; 
+  backgroud-color: white; 
   display: flex; }
 .banner > div {
   flex: 1; 
   font-family: helvetica, sans-serif; 
-  color: white; 
+  color: black; 
   text-decoration: none; }
 .body { 
   display: flex; 
@@ -19,7 +19,7 @@ img {
 .body > div { 
   margin: 0.5; }
 .button { 
-  backgroud-color: violet; 
+  backgroud-color: white; 
   font-family: helvetica, sans-serif; 
   color: black;
   text-decoration: none; 
