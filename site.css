@@ -5,7 +5,7 @@ img {
   height: 300px; }
 .banner { 
   position: sticky; 
-  backgroud-color: white; 
+  background-color: white; 
   display: flex; 
   flex: 1; 
   font-family: helvetica, sans-serif; 
@@ -24,13 +24,13 @@ img {
 .body > div { 
   margin: 10px; }
 .button { 
-  backgroud-color: white; 
+  background-color: white; 
   font-family: helvetica, sans-serif; 
   color: black;
   text-decoration: none; 
   text-align: center; }
 a { 
-  backgroud-color: white; 
+  background-color: white; 
   font-family: helvetica, sans-serif; 
   color: black;
   text-decoration: none; 
@@ -45,3 +45,5 @@ h2 {
   color: black; 
   font-family: helvetica, sans-serif; 
   text-align: center; }
+p {
+  margin: 10px; }
