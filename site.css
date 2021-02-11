@@ -29,14 +29,16 @@ img {
   color: black;
   text-decoration: none; 
   text-align: center; 
-  display: inline; }
+  display: inline; 
+  padding: 3px}
 a { 
   background-color: white; 
   font-family: helvetica, sans-serif; 
   color: black;
   text-decoration: none; 
   text-align: center; 
-  display: inline-block; }
+  display: inline-block; 
+  padding: 3px}
 h1 {
   color: black; 
   font-family: helvetica, sans-serif; 
