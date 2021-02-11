@@ -42,7 +42,8 @@ h1 {
   font-family: helvetica, sans-serif; 
   text-align: center; 
   display: inline; 
-  border: solid, black; }
+  border: solid, black; 
+  margin: 5px; }
 h2 {
   color: black; 
   font-family: helvetica, sans-serif; 
