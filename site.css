@@ -17,7 +17,7 @@ img {
   text-decoration: none; 
   background-color: white; 
   padding: 5px}
-li:a:(.page) {
+li:a:visited:(.page), li:a:link:(.page) {
   flex: 1; 
   font-family: helvetica, sans-serif; 
   color: black; 
@@ -32,7 +32,7 @@ li:a:(.page) {
   text-decoration: none; 
   display: inline-block; 
   padding: 5px; }
-li:a:(.active) { 
+li:a:visited:(.active), li:a:link:(.active) { 
   flex: 1; 
   font-family: helvetica, sans-serif; 
   color: white; 
