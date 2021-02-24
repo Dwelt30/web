@@ -3,8 +3,6 @@ body {
   margin: 25px; }
 img {
   height: 300px; }
-nav { 
-  background-color: white; }
 .banner ul {
   display: flex; 
   flex: 1; 
@@ -16,7 +14,9 @@ nav {
   flex: 1; 
   font-family: helvetica, sans-serif; 
   color: black; 
-  text-decoration: none; }
+  text-decoration: none; 
+  background-color: white; 
+  padding: 5px}
 .active { 
   flex: 1; 
   font-family: helvetica, sans-serif; 
@@ -25,9 +25,16 @@ nav {
   text-decoration: none;  
   text-align: center; 
   display: inline-block; 
-  padding: 3px; }
+  padding: 5px; }
 li a:hover:not(.active) {
-  background-color: lightsteelblue;
+  flex: 1; 
+  font-family: helvetica, sans-serif; 
+  color: black; 
+  background-color: lightsteelblue; 
+  text-decoration: none;  
+  text-align: center; 
+  display: inline-block; 
+  padding: 5px; 
 }
 .body { 
   display: flex; 
@@ -51,14 +58,6 @@ li a:hover:not(.active) {
   text-decoration: none; 
   text-align: center; 
   display: inline; 
-  padding: 3px}
-a { 
-  background-color: white; 
-  font-family: helvetica, sans-serif; 
-  color: black;
-  text-decoration: none; 
-  text-align: center; 
-  display: inline-block; 
   padding: 3px; }
 h1 {
   color: black; 
