@@ -30,6 +30,13 @@ nav {
   margin: 10px; }
 .body > div { 
   margin: 10px; }
+.body2 { 
+  display: flex; 
+  color: black; 
+  font-family: helvetica, sans-serif; 
+  margin: 50px; }
+.body2 > div { 
+  margin: 10px; }
 .button { 
   background-color: white; 
   font-family: helvetica, sans-serif; 
