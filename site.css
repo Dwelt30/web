@@ -48,7 +48,8 @@ li a:hover:not(.active) {
   color: black; 
   font-family: helvetica, sans-serif; 
   margin-right: 250px; 
-  margin-left: 250px; }
+  margin-left: 250px; 
+  margin-top: 50px}
 .body2 > div { 
   margin: 10px; }
 .button { 
