@@ -27,16 +27,16 @@ li:a:visited:(.page), li:a:link:(.page) {
 .active { 
   flex: 1; 
   font-family: helvetica, sans-serif; 
-  color: white; 
-  background-color: black; 
+  color: black; 
+  background-color: lightsteelblue; 
   text-decoration: none; 
   display: inline-block; 
   padding: 5px; }
 li:a:visited:(.active), li:a:link:(.active) { 
   flex: 1; 
   font-family: helvetica, sans-serif; 
-  color: white; 
-  background-color: black; 
+  color: black; 
+  background-color: lightsteelblue; 
   text-decoration: none; 
   display: inline-block; 
   padding: 5px; }
@@ -87,4 +87,5 @@ h2 {
 p {
   margin: 10px; }
 a { 
-  text-decoration: none; } 
+  text-decoration: none; 
+    color: black; } 
