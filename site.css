@@ -29,8 +29,7 @@ li:a:(.page) {
   font-family: helvetica, sans-serif; 
   color: white; 
   background-color: black; 
-  text-decoration: none;  
-  text-align: center; 
+  text-decoration: none; 
   display: inline-block; 
   padding: 5px; }
 li:a:(.active) { 
@@ -38,8 +37,7 @@ li:a:(.active) {
   font-family: helvetica, sans-serif; 
   color: white; 
   background-color: black; 
-  text-decoration: none;  
-  text-align: center; 
+  text-decoration: none; 
   display: inline-block; 
   padding: 5px; }
 li a:hover:not(.active) {
@@ -47,8 +45,7 @@ li a:hover:not(.active) {
   font-family: helvetica, sans-serif; 
   color: black; 
   background-color: lightsteelblue; 
-  text-decoration: none;  
-  text-align: center; 
+  text-decoration: none; 
   display: inline-block; 
   padding: 5px; 
 }
