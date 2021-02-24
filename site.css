@@ -22,7 +22,10 @@ nav {
   font-family: helvetica, sans-serif; 
   color: white; 
   background-color: black; 
-  text-decoration: none; 
+  text-decoration: none;  
+  text-align: center; 
+  display: inline-block; 
+  padding: 3px; }
 .body { 
   display: flex; 
   color: black; 
@@ -52,7 +55,7 @@ a {
   text-decoration: none; 
   text-align: center; 
   display: inline-block; 
-  padding: 3px}
+  padding: 3px; }
 h1 {
   color: black; 
   font-family: helvetica, sans-serif; 
