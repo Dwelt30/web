@@ -81,7 +81,8 @@ li a:hover:not(.active) {
   text-align: center; 
   display: inline; 
   padding: 3px; 
-  margin-left: 350px; }
+  margin-left: 400px; 
+  margin-top: 50px; }
 h1 {
   color: black; 
   font-family: helvetica, sans-serif; 
