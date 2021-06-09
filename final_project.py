@@ -74,7 +74,7 @@ def choose_graph (d):
         else:
             c='hist'
     return c
-def graphing (g):
+def graphing (g, j):
     d=full_dict(g)
     a=choose_graph(d)
     b=list(d.keys())
@@ -111,7 +111,7 @@ def graphing (g):
             plt.xlabel(b0)
     plt.title(g)
     plt.legend()
-    plt.savefig('graph.png')
+    plt.savefig(j)
     plt.show()
 def make_html (g, j):
     d=full_dict(g)
@@ -152,5 +152,5 @@ def make_html (g, j):
         z+='''
         </tr>'''
     f=z+y
-    graphing(g)
+    graphing(g, j)
     print(f)
