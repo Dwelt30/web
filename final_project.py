@@ -112,6 +112,7 @@ def graphing (g):
     plt.title(g)
     plt.legend()
     plt.savefig('graph.png')
+    plt.show()
 def make_html (g):
     d=full_dict(g)
     a=choose_graph(d)
