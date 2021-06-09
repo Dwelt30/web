@@ -113,7 +113,7 @@ def graphing (g):
     plt.legend()
     plt.savefig('graph.png')
     plt.show()
-def make_html (g):
+def make_html (g, j):
     d=full_dict(g)
     a=choose_graph(d)
     b=list(d.keys())
@@ -130,7 +130,7 @@ def make_html (g):
 <html lang=“en”>
 <title>'''+g+'''</title>
 <body>
-<img src="graph.png" display: block;>
+<img src='''+j+''' display: block;>
 <table display: block;>
     <thead>
         <tr>
