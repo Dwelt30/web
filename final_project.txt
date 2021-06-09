@@ -128,8 +128,16 @@ def make_html (g, j):
 </body>'''
     z='''<!DOCTYPE html>
 <html lang=“en”>
+<head>
 <title>'''+g+'''</title>
+<link href="https://dwelt30.github.io/web/site.css" rel="stylesheet">
 <body>
+<nav class="banner">
+  <ul>
+  <li class="active"><a href="final.html">Home</a></li>
+  <li class="page"><a href="final.p2.html">Manhattan Rent</a></li>
+  </ul>
+</nav>
 <img src='''+j+''' display: block;>
 <table display: block;>
     <thead>
@@ -154,3 +162,4 @@ def make_html (g, j):
     f=z+y
     graphing(g, j)
     print(f)
+
