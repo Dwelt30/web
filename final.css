@@ -97,4 +97,5 @@ p {
   margin: 10px; }
 a { 
   text-decoration: none; 
-    color: black; } 
+  margin: 10px;  
+  color: red; } 
