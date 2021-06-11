@@ -12,7 +12,7 @@
   </ul>
 </nav>
 <h1>Final Project</h1>
-<div class="body2">
+<div>
   <p>Devki Welt, Pd 4</p>
   <p>My project is a python program that takes a csv file and returns an html file that codes for a webpage with a graph of the data and a table. To use it, run make_html('filename.csv'), copy and paste the resulting text into a file on github, and upload the graph which the program should generate and save as a png to github as well. This should result in a functional page with the graph and table.</p>
   <p>This project works by first reading in the csv, the splitting it by newlines and commas to get headers and data. It then makes a dictionary with dictionary values to assign each data point to a header. It will then check the dictionary for the type of data it contains. If the dictionary's keys are numerical values and the interior dictionary's keys are also numerical values, and they represent some sort of time data, it will choose a line plot. If they do not correspond to time data, it will choose a scatter plot. If the main keys are numerical but the sub-keys are not, it chooses a histogram. If the main keys are not numerical, then if the values of the sub-dictionaries are numerical, it chooses a bar graph. Otherwise it chooses a histogram. It then uses the dictionary to set up lists of data and save it as the chosen type of graph, and then assembles a string that uses the same lists to create a table in html as well as attach the png of the graph and link to the project site. It then prints the html. </p>
